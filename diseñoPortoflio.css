@@ -87,3 +87,21 @@ p {
   margin-right: 10px;
   margin-left: 25px;
 }
+
+#logoVorterix {
+  width: 8%;
+  float: left;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+#logoSAV {
+  width: 15%;
+  float: left;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
