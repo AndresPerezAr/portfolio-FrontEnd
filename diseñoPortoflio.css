@@ -25,9 +25,9 @@
 
 #btn-login {
   float: right;
-  margin-top: 7px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 4px;
+  padding: 2px;
+  border-radius: 8px;
 }
 
 #banner {
@@ -45,44 +45,39 @@
 
 h1 {
   font-size: 170%;
-  margin-left: 10px;
 }
 
 h2 {
   font-size: 150%;
-  margin-left: 15px;
 }
 
 p {
   margin-left: 10px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 120%;
 }
 
 .bloque {
   border: 1px solid #d0d0d0;
   border-radius: 50px;
   margin: 5px;
+  padding: 20px;
 }
 
 #container {
-  display: flow-root;
-  margin-bottom: 10px;
+  padding: 10px;
 }
 
 #logoDelta {
   width: 8%;
   float: left;
-  overflow: hidden;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-left: 25px;
+  margin: 10px;
+  padding: 10px;
 }
 
 #logoDC {
   width: 13%;
   float: left;
-  overflow: hidden;
   margin-top: 5px;
   margin-right: 10px;
   margin-left: 25px;
@@ -91,7 +86,6 @@ p {
 #logoVorterix {
   width: 8%;
   float: left;
-  overflow: hidden;
   margin-top: 5px;
   margin-right: 10px;
   margin-left: 25px;
@@ -100,7 +94,6 @@ p {
 #logoSAV {
   width: 15%;
   float: left;
-  overflow: hidden;
   margin-top: 5px;
   margin-right: 10px;
   margin-left: 25px;
