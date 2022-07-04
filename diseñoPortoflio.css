@@ -6,19 +6,20 @@
 }
 
 #logoAP {
-  width: 130px;
+  width: 13%;
   float: left;
   margin-top: -10px;
 }
 
 #hashtag {
-  font-size: 17px;
+  width: 13%;
   float: left;
   margin-top: 22px;
   margin-left: -2px;
 }
 
 #redes {
+  width: 20%;
   float: right;
   margin-top: 15px;
 }
@@ -52,8 +53,6 @@ h2 {
 }
 
 p {
-  margin-left: 10px;
-  margin-bottom: 20px;
   font-size: 120%;
 }
 
@@ -61,26 +60,23 @@ p {
   border: 1px solid #d0d0d0;
   border-radius: 50px;
   margin: 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #container {
-  padding: 10px;
+  padding: 7px;
+  margin: 10px;
 }
 
 #logoDelta {
-  width: 8%;
+  width: 50px;
   float: left;
-  margin: 10px;
-  padding: 10px;
 }
 
 #logoDC {
   width: 13%;
   float: left;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-left: 25px;
+  margin: 10px;
 }
 
 #logoVorterix {
