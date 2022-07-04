@@ -6,22 +6,20 @@
 }
 
 #logoAP {
-  width: 13%;
+  width: 130px;
   float: left;
   margin-top: -10px;
 }
 
-#hashtag {
-  width: 13%;
+a{
   float: left;
   margin-top: 22px;
   margin-left: -2px;
 }
 
 #redes {
-  width: 20%;
   float: right;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 #btn-login {
@@ -38,59 +36,59 @@
 #fotoPerfil {
   width: 15%;
   margin-top: -40px;
-  margin-left: 35px;
+  margin-left: 25px;
   margin-bottom: 10px;
   display: flex;
   border-radius: 200px;
 }
 
 h1 {
-  font-size: 170%;
+  font-size: 2em;
+  margin-left: 10px;
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 1.7em;
+  margin-left: 10px;
 }
 
 p {
-  font-size: 120%;
+  margin-left: 10px;
+  font-size: 1.5em;
 }
 
-.bloque {
-  border: 1px solid #d0d0d0;
+li{
+  margin: 5px 5px 20px;
+  list-style: none;
+}
+
+.container {
+  border: 2px solid #d0d0d0;
   border-radius: 50px;
   margin: 5px;
   padding: 10px;
 }
 
-#container {
-  padding: 7px;
-  margin: 10px;
-}
-
 #logoDelta {
   width: 50px;
   float: left;
+  margin-right: 10px;
 }
 
 #logoDC {
-  width: 13%;
+  width: 100px;
   float: left;
-  margin: 10px;
+  margin-right: 10px;
 }
 
 #logoVorterix {
-  width: 8%;
+  width: 50px;
   float: left;
-  margin-top: 5px;
   margin-right: 10px;
-  margin-left: 25px;
 }
 
 #logoSAV {
-  width: 15%;
+  width: 100px;
   float: left;
-  margin-top: 5px;
   margin-right: 10px;
-  margin-left: 25px;
 }

@@ -1,129 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../portfolio-FrontEnd/diseñoPortoflio.css" />
-    <title>Portfolio Andrés Pérez</title>
-  </head>
 
-  <body>
-    <header>
-      <img src="../portfolio-FrontEnd/assets/APLogo.png" id="logoAP" />
-      <p id="hashtag">#YoProgramo</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../portfolio-FrontEnd/diseñoPortoflio.css" />
+  <title>Portfolio Andrés Pérez</title>
+</head>
 
-      <div id="redes">
-        <img
-          src="../portfolio-FrontEnd/assets/github.png"
-          alt="github"
-          width="30px"
-          height="30px"
-        />
-        <img
-          src="../portfolio-FrontEnd/assets/linkedin.png"
-          alt="linkedin"
-          width="30px"
-          height="30px"
-        />
-        <img
-          src="../portfolio-FrontEnd/assets/twitter.png"
-          alt="twitter"
-          width="30px"
-          height="30px"
-        />
-        <img
-          src="../portfolio-FrontEnd/assets/instagram.png"
-          alt="instagram"
-          width="30px"
-          height="30px"
-        />
-        <img
-          src="../portfolio-FrontEnd/assets/facebook.png"
-          alt="facebook"
-          width="30px"
-          height="30px"
-        />
-        <button id="btn-login">Login</button>
-      </div>
+<body>
+  <header>
+    <img src="../portfolio-FrontEnd/assets/APLogo.png" id="logoAP" />
+    <a href="https://twitter.com/hashtag/YoProgramo?src=hashtag_click">#YoProgramo</a>
 
-      <img src="../portfolio-FrontEnd/assets/Banner AP.jpg" id="banner" />
-    </header>
-
-    <div>
-      <img
-        src="../portfolio-FrontEnd/assets/IMG_4310_adobespark.png"
-        id="fotoPerfil"
-      />
-      <h2>Andrés Pérez</h2>
-      <p>
-        Músico, técnico operador audiovisual y estudiante de progrmación FULL
-        STACK en continuo crecimiento
-      </p>
+    <div id="redes">
+      <img src="../portfolio-FrontEnd/assets/github.png" alt="github" width="30px" height="30px" />
+      <img src="../portfolio-FrontEnd/assets/linkedin.png" alt="linkedin" width="30px" height="30px" />
+      <img src="../portfolio-FrontEnd/assets/twitter.png" alt="twitter" width="30px" height="30px" />
+      <img src="../portfolio-FrontEnd/assets/instagram.png" alt="instagram" width="30px" height="30px" />
+      <img src="../portfolio-FrontEnd/assets/facebook.png" alt="facebook" width="30px" height="30px" />
+      <button id="btn-login">Login</button>
     </div>
 
-    <div class="bloque">
-      <h1>Experiencia</h1>
-      <div id="container">
-        <img
-          src="../portfolio-FrontEnd/assets/Delta eco.jfif"
-          alt="logoDelta"
-          id="logoDelta"
-        />
+    <img src="../portfolio-FrontEnd/assets/Banner AP.jpg" id="banner" />
+  </header>
+
+  <div>
+    <img src="../portfolio-FrontEnd/assets/IMG_4310_adobespark.png" id="fotoPerfil" />
+    <h1>Andrés Pérez</h1>
+    <p>
+      Músico, técnico operador audiovisual y estudiante de progrmación FULL
+      STACK en continuo crecimiento
+    </p>
+  </div>
+
+  <div class="container">
+    <h1>Experiencia</h1>
+    <ul>
+      <li>
+        <img src="../portfolio-FrontEnd/assets/Delta eco.jfif" alt="logoDelta" id="logoDelta" />
         <h2>Delta Eco Hotel | 2022</h2>
         <p>
           Soporte y mantenimiento del sistema informático, circuito cerrado de
           cámaras de seguridad, red de telefonía e internet y red eléctrica.
         </p>
-      </div>
+      </li>
 
-      <div id="container">
-        <img
-          src="../portfolio-FrontEnd/assets/logo Digital Company.png"
-          alt="logoDC"
-          id="logoDC"
-        />
+      <li>
+        <img src="../portfolio-FrontEnd/assets/logo Digital Company.png" alt="logoDC" id="logoDC" />
         <h2>Digital company | 2019-22</h2>
         <p>Técnico operador de sonido y video</p>
-      </div>
+      </li>
 
-      <div id="container">
-        <img
-          src="../portfolio-FrontEnd/assets/Vorterix.jpg"
-          alt="logoVorterix"
-          id="logoVorterix"
-        />
+      <li>
+        <img src="../portfolio-FrontEnd/assets/Vorterix.jpg" alt="logoVorterix" id="logoVorterix" />
         <h2>Teatro Vorterix | 2017-18</h2>
         <p>Stage</p>
-      </div>
+      </li>
 
-      <div id="container">
-        <img
-          src="../portfolio-FrontEnd/assets/SAV 4.jpg"
-          alt="logoSAV"
-          id="logoSAV"
-        />
+      <li>
+        <img src="../portfolio-FrontEnd/assets/SAV 4.jpg" alt="logoSAV" id="logoSAV" />
         <h2>SAV Servicios audiovisuales | 2011-20</h2>
         <p>Técnico perador de sonido y video</p>
-      </div>
-    </div>
+      </li>
+    </ul>
+  </div>
 
-    <div class="bloque">
-      <h1>Educación</h1>
-    </div>
+  <div class="container">
+    <h1>Educación</h1>
+  </div>
 
-    <div class="bloque">
-      <h1>Hard & soft skills</h1>
-    </div>
+  <div class="container">
+    <h1>Hard & soft skills</h1>
+  </div>
 
-    <div class="bloque">
-      <h1>Proyectos</h1>
-    </div>
-  </body>
+  <div class="container">
+    <h1>Proyectos</h1>
+  </div>
+</body>
+
 </html>
