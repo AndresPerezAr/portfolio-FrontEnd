@@ -3,6 +3,7 @@
   padding: 0;
   background-color: darkgray;
   font-family: "Anek Latin", sans-serif;
+  text-align: left;
 }
 
 #logoAP {
@@ -15,6 +16,7 @@ a{
   float: left;
   margin-top: 22px;
   margin-left: -2px;
+  text-decoration: none;
 }
 
 #redes {
@@ -35,8 +37,8 @@ a{
 
 #fotoPerfil {
   width: 15%;
-  margin-top: -40px;
-  margin-left: 25px;
+  margin-top: -50px;
+  margin-left: 5px;
   margin-bottom: 10px;
   display: flex;
   border-radius: 200px;
@@ -44,7 +46,7 @@ a{
 
 h1 {
   font-size: 2em;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 h2 {
@@ -54,7 +56,7 @@ h2 {
 
 p {
   font-size: 1.5em;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 li{
@@ -66,7 +68,7 @@ li{
   border: 2px solid #d0d0d0;
   border-radius: 50px;
   margin: 5px;
-  padding: 10px;
+  padding: 13px;
 }
 
 #logoDelta {
