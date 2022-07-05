@@ -1,6 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   background-color: darkgray;
   font-family: "Anek Latin", sans-serif;
   font-size: 16px;
@@ -42,7 +46,7 @@ a {
 
 #fotoPerfil {
   width: 15%;
-  margin-top: -50px;
+  margin-top: -6.667vw;
   margin-left: 5px;
   margin-bottom: 10px;
   display: flex;
@@ -64,6 +68,10 @@ p {
   margin-left: 15px;
 }
 
+ul{
+  display: block;
+}
+
 li {
   margin: 5px 5px 20px;
   list-style: none;
@@ -74,6 +82,7 @@ li {
   border-radius: 50px;
   margin: 5px;
   padding: 13px;
+  display: block;
 }
 
 #logoDelta {
@@ -98,4 +107,29 @@ li {
   width: 100px;
   float: left;
   margin-right: 10px;
+}
+
+#logoAPedu{
+  width: 30%;
+  float: left;
+}
+
+#logoEU{
+  width: 20%;
+  float: left;
+}
+
+#logoDome{
+  width: 20%;
+  float: left;
+}
+
+#logoLIL{
+  width: 20%;
+  float: left;
+}
+
+#logoCETE{
+  width: 20%;
+  float: left;
 }
