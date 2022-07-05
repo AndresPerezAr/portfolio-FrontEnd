@@ -1,10 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   background-color: darkgray;
   font-family: "Anek Latin", sans-serif;
   font-size: 16px;
@@ -47,89 +44,94 @@ a {
 #fotoPerfil {
   width: 15%;
   margin-top: -6.667vw;
-  margin-left: 5px;
-  margin-bottom: 10px;
-  display: flex;
+  margin-left: 2vw;
+  margin-bottom: 1.333vw;
   border-radius: 200px;
 }
 
 h1 {
-  font-size: 2em;
-  margin-left: 20px;
+  font-size: 3vw;
+  margin-left: 2.667vw;
 }
 
 h2 {
-  font-size: 1.7em;
-  margin-left: 10px;
+  font-size: 2vw;
+  margin-left: 1.333vw;
 }
 
 p {
-  font-size: 1.5em;
-  margin-left: 15px;
-}
-
-ul{
-  display: block;
+  font-size: 1.5vw;
+  margin-left: 2vw;
 }
 
 li {
-  margin: 5px 5px 20px;
+  margin-bottom: 4vw;
   list-style: none;
+  height: 70px;
 }
 
 .container {
   border: 2px solid #d0d0d0;
   border-radius: 50px;
-  margin: 5px;
-  padding: 13px;
-  display: block;
+  margin: 0.667vw;
+  padding: 1.733vw;
 }
 
 #logoDelta {
-  width: 50px;
+  width: 8vw;
   float: left;
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
 #logoDC {
-  width: 100px;
+  width: 14vw;
   float: left;
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
 #logoVorterix {
-  width: 50px;
+  width: 8vw;
   float: left;
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
 #logoSAV {
-  width: 100px;
+  width: 15vw;
   float: left;
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
-#logoAPedu{
-  width: 30%;
+#logoAPedu {
+  width: 15vw;
   float: left;
+  margin-top: -2.5vw;
+  margin-bottom: -2vw;
 }
 
-#logoEU{
-  width: 20%;
+#logoEU {
+  width: 9vw;
   float: left;
+  margin-right: 1vw;
+  margin-bottom: -1vw;
 }
 
-#logoDome{
-  width: 20%;
+#logoDome {
+  width: 15vw;
   float: left;
+  margin-right: 1vw;
+  margin-bottom: 2vw;
 }
 
-#logoLIL{
-  width: 20%;
+#logoLIL {
+  width: 15vw;
   float: left;
+  margin-top: -2vw;
+  margin-right: 1vw;
 }
 
-#logoCETE{
-  width: 20%;
+#logoCETE {
+  width: 15vw;
   float: left;
+  margin-top: -0.5vw;
+  margin-right: 1vw;
 }
