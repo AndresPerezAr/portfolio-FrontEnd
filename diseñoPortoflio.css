@@ -1,33 +1,38 @@
-* {
+body {
   margin: 0;
   padding: 0;
   background-color: darkgray;
   font-family: "Anek Latin", sans-serif;
-  text-align: left;
+  font-size: 16px;
 }
 
 #logoAP {
-  width: 130px;
+  width: 15%;
   float: left;
-  margin-top: -10px;
+  margin: -1.7% -0.2%;
 }
 
-a{
-  float: left;
-  margin-top: 22px;
-  margin-left: -2px;
+a {
+  font-size: 2vw;
   text-decoration: none;
+  float: left;
+  margin-top: 2%;
 }
 
-#redes {
+.redes {
   float: right;
-  margin-top: 16px;
+  margin: 1.5% 0.5%;
+}
+
+.redes img {
+  width: 2.5vw;
 }
 
 #btn-login {
   float: right;
-  margin: 4px;
-  padding: 2px;
+  font-size: 2vw;
+  margin-left: -0.5%;
+  padding: 1px;
   border-radius: 8px;
 }
 
@@ -59,7 +64,7 @@ p {
   margin-left: 15px;
 }
 
-li{
+li {
   margin: 5px 5px 20px;
   list-style: none;
 }
