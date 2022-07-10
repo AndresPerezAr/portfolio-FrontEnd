@@ -1,0 +1,9 @@
+body {
+  background-color: grey;
+}
+
+#fotoPerfil {
+    width: 50%;
+    margin-top: -4vw;
+    border-radius: 200px;
+  }
