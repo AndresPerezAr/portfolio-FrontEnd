@@ -1,156 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../portfolio-FrontEnd/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Andrés Pérez</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="../portfolio-FrontEnd/diseñoPortoflio.css" /> -->
-  <title>Portfolio Andrés Pérez</title>
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand navbar-light bg-dark">
+        <div class="container">
+          <a class="navbar-brand me-2">
+            <img
+              src="../portfolio-FrontEnd/assets/APLogo.png"
+              alt="logoAP"
+              style="margin: -10%"
+              height="75"
+            />
+          </a>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-black">
-      <div class="container">
-        <a class="navbar-brand me-2">
-          <img src="../portfolio-FrontEnd/assets/APLogo.png" height="58" alt="logoAP" loading="lazy"
-            style="margin-top: -1px;" />
-        </a>
+          <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  href="https://twitter.com/hashtag/YoProgramo?src=hashtag_click"
+                  target="_blank"
+                  style="margin-left: -30px"
+                  >#YoProgramo</a
+                >
+              </li>
+            </ul>
 
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="https://twitter.com/hashtag/YoProgramo?src=hashtag_click"
-                target="_blank">#YoProgramo</a>
-            </li>
-          </ul>
+            <div class="btn-primary-spacing">
+              <a
+                href="https://github.com/AndresPerezAr"
+                role="button"
+                target="_blank"
+              >
+                <img
+                  src="../portfolio-FrontEnd/assets/github.png"
+                  alt="github"
+                  width="30px"
+              /></a>
 
-          <div class="d-flex align-items-center">
-            <a class="btn btn-dark px-3" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">
-              <i class="fab fa-github"></i>
-            </a>
+              <a
+                href="https://www.linkedin.com/in/andresperezar/"
+                role="button"
+                target="_blank"
+              >
+                <img
+                  src="../portfolio-FrontEnd/assets/linkedin.png"
+                  alt="logoLinkedin"
+                  width="30px"
+              /></a>
 
-            <button type="button" class="btn btn-link px-3 me-2">
-              Login
-            </button>
+              <a
+                href="https://twitter.com/andresperez30_"
+                role="button"
+                target="_blank"
+              >
+                <img
+                  src="../portfolio-FrontEnd/assets/twitter.png"
+                  alt="logoTw"
+                  width="30px"
+              /></a>
+
+              <a
+                href="https://www.instagram.com/andresperez30_/"
+                role="button"
+                target="_blank"
+              >
+                <img
+                  src="../portfolio-FrontEnd/assets/instagram.png"
+                  alt="logoInsta"
+                  width="30px"
+              /></a>
+
+              <a
+                href="https://www.facebook.com/andresperez30"
+                role="button"
+                target="_blank"
+              >
+                <img
+                  src="../portfolio-FrontEnd/assets/facebook.png"
+                  alt="logoFb"
+                  width="30px"
+              /></a>
+
+              <button type="button" class="btn btn-secondary">Login</button>
+            </div>
           </div>
         </div>
+      </nav>
+
+      <img
+        src="../portfolio-FrontEnd/assets/Banner AP.jpg"
+        class="img-fluid"
+        alt="banner"
+      />
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="../portfolio-FrontEnd/assets/IMG_4310_adobespark.png"
+            class="img-fluid"
+            alt="fotoPerfil"
+            id="fotoPerfil"
+          />
+          <h1>Andrés Pérez</h1>
+        </div>
+
+        <div class="col-8 mt-3">
+          <h2>FULLSTACK developer Jr.</h2>
+          <p>
+            Músico, técnico operador audiovisual y estudiante de progrmación
+            FULLSTACK en continuo crecimiento
+          </p>
+        </div>
       </div>
-    </nav>
-
-    <img src="../portfolio-FrontEnd/assets/APLogo.png" id="logoAP" />
-    <a href="https://twitter.com/hashtag/YoProgramo?src=hashtag_click" target="_blank">#YoProgramo</a>
-
-    <div class="redes">
-      <img src="../portfolio-FrontEnd/assets/github.png" alt="github" />
-      <img src="../portfolio-FrontEnd/assets/linkedin.png" alt="linkedin" />
-      <img src="../portfolio-FrontEnd/assets/twitter.png" alt="twitter" />
-      <img src="../portfolio-FrontEnd/assets/instagram.png" alt="instagram" />
-      <img src="../portfolio-FrontEnd/assets/facebook.png" alt="facebook" />
-      <button id="btn-login">Login</button>
     </div>
 
-    <img src="../portfolio-FrontEnd/assets/Banner AP.jpg" id="banner" />
-  </header>
+    <div class="container border rounded mb-3">
+      <h2>Experiencia</h2>
+      <div class="row mb-3">
+        <div class="col-4 mt-1">
+          <img
+            src="../portfolio-FrontEnd/assets/Delta eco.jfif"
+            alt="logoDelta"
+            class="img-responsive rounded mx-auto d-block"
+            width="50%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>Delta Eco Hotel | 2022</h3>
+          <p>
+            Soporte y mantenimiento del sistema informático, circuito cerrado de
+            cámaras de seguridad, red de telefonía e internet y red eléctrica
+          </p>
+        </div>
+      </div>
 
-  <div>
-    <img src="../portfolio-FrontEnd/assets/IMG_4310_adobespark.png" id="fotoPerfil" />
-    <h1>Andrés Pérez</h1>
-    <p>Músico, técnico operador audiovisual y estudiante de progrmación FULLSTACK en continuo crecimiento</p>
-  </div>
-
-  <div class="bloque">
-    <div class="row">
-      <h1>Experiencia</h1>
-      <ul>
-        <li>
-          <img src="../portfolio-FrontEnd/assets/Delta eco.jfif" alt="logoDelta" id="logoDelta" />
-          <h2>Delta Eco Hotel | 2022</h2>
-          <p>Soporte y mantenimiento del sistema informático, circuito cerrado de cámaras de seguridad, red de telefonía
-            e
-            internet y red eléctrica</p>
-        </li>
-
-        <li>
-          <img src="../portfolio-FrontEnd/assets/logo Digital Company.png" alt="logoDC" id="logoDC" />
-          <h2>Digital company | 2019-22</h2>
+      <div class="row mb-3">
+        <div class="col-4 mt-1">
+          <img
+            src="../portfolio-FrontEnd/assets/logo Digital Company.png"
+            alt="logoDC"
+            class="img-resppnsive rounded mx-auto d-block"
+            width="60%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>Digital company | 2019-22</h3>
           <p>Técnico operador de sonido y video</p>
-        </li>
+        </div>
+      </div>
 
-        <li>
-          <img src="../portfolio-FrontEnd/assets/Vorterix.jpg" alt="logoVorterix" id="logoVorterix" />
-          <h2>Teatro Vorterix | 2017-18</h2>
+      <div class="row mb-3">
+        <div class="col-4 mt-1">
+          <img src="../portfolio-FrontEnd/assets/Vorterix.jpg" alt="logoVrtx"
+          class="img-responsive rounded mx-auto d-block"" width="40%" />
+        </div>
+        <div class="col-8">
+          <h3>Teatro Vorterix | 2017-18</h3>
           <p>Stage</p>
-        </li>
+        </div>
+      </div>
 
-        <li>
-          <img src="../portfolio-FrontEnd/assets/SAV 4.jpg" alt="logoSAV" id="logoSAV" />
-          <h2>SAV Servicios audiovisuales | 2011-20</h2>
+      <div class="row mb-3">
+        <div class="col-4 mt-1">
+          <img src="../portfolio-FrontEnd/assets/SAV 4.jpg" alt="logoSAV"
+          class="img-responsive rounded mx-auto d-block"" width="50%" />
+        </div>
+        <div class="col-8">
+          <h3>SAV Servicios audiovisuales | 2011-20</h3>
           <p>Técnico perador de sonido y video</p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="bloque">
-    <h1>Educación</h1>
-    <ul>
-      <li>
-        <img src="../portfolio-FrontEnd/assets/APLogo.png" alt="logoAP" id="logoAPedu" />
-        <h2>Argentina programa | 2021-22</h2>
-        <p>Finalizando la 2da etapa</p>
-      </li>
+    <div class="container border rounded mb-3">
+      <h2>Educación</h2>
+      <div class="row mb-3">
+        <div class="col-4 text-center">
+          <img
+            src="../portfolio-FrontEnd/assets/APLogo.png"
+            alt="logoAP"
+            class="img-responsive rounded mx-auto d-block"
+            width="80%"
+            style="margin-top: -13%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>Argentina programa | 2021-22</h3>
+          <p>Finalizando la 2da etapa</p>
+        </div>
+      </div>
 
-      <li>
-        <img src="../portfolio-FrontEnd/assets/Estudio urbano logo.jpg" alt="logoEU" id="logoEU" />
-        <h2>Estudio urbano | 2021-22</h2>
-        <p>Cursos de Mezcla avanzada y Mastering</p>
-      </li>
+      <div class="row mb-4">
+        <div class="col-4">
+          <img
+            src="../portfolio-FrontEnd/assets/Estudio urbano logo.jpg"
+            alt="logoEU"
+            class="img-responsive rounded mx-auto d-block"
+            width="40%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>Estudio urbano | 2021-22</h3>
+          <p>Cursos de Mezcla avanzada y Mastering</p>
+        </div>
+      </div>
 
-      <li>
-        <img src="../portfolio-FrontEnd/assets/Domestika logo.png" alt="logoDome" id="logoDome" />
-        <h2>Domestika | 2020-21</h2>
-        <p>Introducción a la fotografía digital y Postproducción de sonido para video</p>
-      </li>
+      <div class="row mb-5">
+        <div class="col-4">
+          <img
+            src="../portfolio-FrontEnd/assets/Domestika logo.png"
+            alt="logoDome"
+            class="img-responsive mx-auto d-block"
+            width="70%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>Domestika | 2020-21</h3>
+          <p>
+            Introducción a la fotografía digital y Postproducción de sonido para
+            video
+          </p>
+        </div>
+      </div>
 
-      <li>
-        <img src="../portfolio-FrontEnd/assets/Logo-Linkedin.png" alt="logoLIL" id="logoLIL" />
-        <h2>LinkedIn learning | 2020</h2>
-        <p>Especialista en soporte IT</p>
-      </li>
+      <div class="row mb-3">
+        <div class="col-4">
+          <img
+            src="../portfolio-FrontEnd/assets/Logo-Linkedin.png"
+            alt="logoLIL"
+            class="img-responsive mx-auto d-block"
+            width="70%"
+            style="margin-top: -11%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>LinkedIn learning | 2020</h3>
+          <p>Especialista en soporte IT</p>
+        </div>
+      </div>
 
-      <li>
-        <img src="../portfolio-FrontEnd/assets/CETEAR.png" alt="logoCETE" id="logoCETE" />
-        <h2>CETEAR | 2011-13</h2>
-        <p>Operador de sonido</p>
-      </li>
-    </ul>
-  </div>
-
-  <div class="bloque">
-    <h1>Hard & soft skills</h1>
-  </div>
-
-  <div class="bloque">
-    <h1>Proyectos</h1>
-  </div>
-
-  <footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">Andrés Pérez</a>
+      <div class="row mb-3">
+        <div class="col-4">
+          <img
+            src="../portfolio-FrontEnd/assets/CETEAR.png"
+            alt="logoCETE"
+            class="img-responsive mx-auto d-block"
+            width="70%"
+            style="margin-top: -3%"
+          />
+        </div>
+        <div class="col-8">
+          <h3>CETEAR | 2011-13</h3>
+          <p>Operador de sonido</p>
+        </div>
+      </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</body>
+    <div class="container border rounded mb-3">
+      <h2>Hard & soft skills</h2>
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 99%"
+          aria-valuenow="99"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Pro tools (Grabación, edición, mezcla y mastering de audio)
+        </div>
+      </div>
 
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 60%"
+          aria-valuenow="60"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Adobe premiere (Edición de video)
+        </div>
+      </div>
+
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 75%"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Adobe photoshop (Edición de imágen)
+        </div>
+      </div>
+
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 80%"
+          aria-valuenow="80"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Microsoft office
+        </div>
+      </div>
+
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 75%"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Programación web FULLSTACK (en continuo crecimiento)
+        </div>
+      </div>
+
+      <h3>Idiomas</h3>
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 100%"
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Español nativo
+        </div>
+      </div>
+
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 90%"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Inglés escrito
+        </div>
+      </div>
+
+      <div class="progress mb-2">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 80%"
+          aria-valuenow="80"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          Inglés hablado
+        </div>
+      </div>
+    </div>
+
+    <div class="container border rounded mb-3">
+      <h2>Proyectos</h2>
+      <p>Éste portfolio es el primer proyecto web que estoy realizando</p>
+    </div>
+
+    <footer class="bg-dark text-center text-lg-start">
+      <div
+        class="text-center p-3 text-light"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        ©2022 Copyright
+        <a class="text-light" href="">Andrés Pérez</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
