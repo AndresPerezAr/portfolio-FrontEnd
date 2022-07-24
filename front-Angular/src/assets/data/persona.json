@@ -86,5 +86,49 @@
 			"fechaFinal": "2013",
 			"descripcion": "Operador de sonido"
 		}
+	],
+	"habilidad": [
+		{
+			"idHabilidad": "1",
+			"nombre": "Pro tools (Grabación, edición, mezcla y mastering de audio)",
+			"progreso": "width: 90%"
+		},
+		{
+			"idHabilidad": "2",
+			"nombre": "Adobe premiere (Edición de video)",
+			"progreso": "width: 60%"
+		},
+		{
+			"idHabilidad": "3",
+			"nombre": "Adobe photoshop (Edición de imágen)",
+			"progreso": "width: 75%"
+		},
+		{
+			"idHabilidad": "4",
+			"nombre": "Adobe photoshop (Edición de imágen)",
+			"progreso": "width: 80%"
+		},
+		{
+			"idHabilidad": "5",
+			"nombre": "Programación web FULLSTACK (...y en continuo crecimiento)",
+			"progreso": "width: 70%"
+		}
+	],
+	"idioma": [
+		{
+			"idIdioma": "1",
+			"nombre": "Español nativo",
+			"progreso": "width: 100%"
+		},
+		{
+			"idIdioma": "2",
+			"nombre": "Inglés escrito",
+			"progreso": "width: 90%"
+		},
+		{
+			"idIdioma": "3",
+			"nombre": "Inglés hablado",
+			"progreso": "width: 80%"
+		}
 	]
 }
