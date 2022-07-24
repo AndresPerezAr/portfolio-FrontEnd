@@ -130,5 +130,12 @@
 			"nombre": "Inglés hablado",
 			"progreso": "width: 80%"
 		}
+	],
+	"proyecto": [
+		{
+			"idProyecto": "1",
+			"nombre": "",
+			"descripcion": "Éste portfolio es el primer proyecto web que realizo"
+		}
 	]
 }
