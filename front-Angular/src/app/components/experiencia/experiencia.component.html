@@ -1,58 +1,12 @@
 <div class="container border rounded mb-3">
   <h2>Experiencia</h2>
-  <div class="row mb-3">
+  <div class="row mb-3" *ngFor="let experiencia of experienciaList">
     <div class="col-4 mt-1">
-      <img
-        src="./assets/Delta eco.jfif"
-        alt="logoDelta"
-        class="img-responsive rounded mx-auto d-block"
-        width="50%"
-      />
+      <img [src]="experiencia.logo" alt="logo" class="img-responsive rounded mx-auto d-block" width="50%" />
     </div>
     <div class="col-8">
-      <h3>Delta Eco Hotel | 2022</h3>
-      <p>
-        Soporte y mantenimiento del sistema informático, circuito cerrado de
-        cámaras de seguridad, red de telefonía e internet y red eléctrica
-      </p>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-4 mt-1">
-      <img
-        src="./assets/logo Digital Company.png"
-        alt="logoDC"
-        class="img-resppnsive rounded mx-auto d-block"
-        width="60%"
-      />
-    </div>
-    <div class="col-8">
-      <h3>Digital company | 2019-22</h3>
-      <p>Técnico operador de sonido y video</p>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-4 mt-1">
-      <img src="./assets/Vorterix.jpg" 
-      alt="logoVrtx"
-      class="img-responsive rounded mx-auto d-block" width="40%" />
-    </div>
-    <div class="col-8">
-      <h3>Teatro Vorterix | 2017-18</h3>
-      <p>Stage</p>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-4 mt-1">
-      <img src="./assets/SAV 4.jpg" alt="logoSAV"
-      class="img-responsive rounded mx-auto d-block" width="50%" />
-    </div>
-    <div class="col-8">
-      <h3>SAV Servicios audiovisuales | 2011-20</h3>
-      <p>Técnico operador de sonido y video</p>
+      <h3>{{experiencia.nombre}} | {{experiencia.fechaInicio}}-{{experiencia.fechaFinal}}</h3>
+      <p>{{experiencia.tarea}}</p>
     </div>
   </div>
 </div>

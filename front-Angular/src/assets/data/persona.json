@@ -1,9 +1,90 @@
 {
-	"id": "1",
+	"idPersona": "1",
 	"nombre": "Andrés",
 	"apellido": "Pérez",
 	"bio": "Músico, técnico operador audiovisual y estudiante de progrmación FULLSTACK en continuo crecimiento",
 	"titulo": "Full Stack developer Jr.",
 	"backgroundBanner": "./assets/Banner AP.jpg",
-	"fotoPerfil": "./assets/IMG_4310_adobespark.png"
+	"fotoPerfil": "./assets/IMG_4310_adobespark.png",
+	"experiencia": [
+		{
+			"idExperiencia": "1",
+			"logo": "./assets/Delta eco.jfif",
+			"nombre": "Delta Eco Hotel",
+			"fechaInicio": "2022",
+			"fechaFinal": "Actualidad",
+			"tarea": "Soporte y mantenimiento del sistema informático, circuito cerrado de cámaras de seguridad, red de telefonía e internet y red eléctrica"
+		},
+		{
+			"idExperiencia": "2",
+			"logo": "./assets/logo Digital Company.png",
+			"nombre": "Digital company",
+			"fechaInicio": "2019",
+			"fechaFinal": "Actualidad",
+			"tarea": "Técnico operador de sonido y video"
+		},
+		{
+			"idExperiencia": "3",
+			"logo": "./assets/Vorterix.jpg",
+			"nombre": "Teatro Vorterix",
+			"fechaInicio": "2017",
+			"fechaFinal": "2018",
+			"tarea": "Stage en recitales de bandas nacionales e internacionales"
+		},
+		{
+			"idExperiencia": "4",
+			"logo": "./assets/SAV 4.jpg",
+			"nombre": "SAV Servicios audiovisuales",
+			"fechaInicio": "2011",
+			"fechaFinal": "2021",
+			"tarea": "Técnico operador de sonido y video"
+		}
+	],
+	"educacion": [
+		{
+			"idEducacion": "1",
+			"logo": "./assets/APLogo.png",
+			"estilo": "width: 80%; margin-top: -11%",
+			"institucion": "Argentina programa",
+			"fechaInicio": "2021",
+			"fechaFinal": "2022",
+			"descripcion": "Finalizando la 2da etapa"
+		},
+		{
+			"idEducacion": "2",
+			"logo": "./assets/Estudio urbano logo.jpg",
+			"estilo": "width: 40%; margin-top: 4%",
+			"institucion": "Estudio urbano",
+			"fechaInicio": "2021",
+			"fechaFinal": "2022",
+			"descripcion": "Cursos de Mezcla avanzada y Mastering"
+		},
+		{
+			"idEducacion": "3",
+			"logo": "./assets/Domestika logo.png",
+			"estilo": "width: 70%; margin-top: 9%;",
+			"institucion": "Domestika",
+			"fechaInicio": "2020",
+			"fechaFinal": "2021",
+			"descripcion": "Introducción a la fotografía digital y Postproducción de sonido para video"
+		},
+		{
+			"idEducacion": "4",
+			"logo": "./assets/Logo-Linkedin.png",
+			"estilo": "width: 70%; margin-top: -10%",
+			"institucion": "LinkedIn learning",
+			"fechaInicio": "2020",
+			"fechaFinal": "",
+			"descripcion": "Especialista en soporte IT"
+		},
+		{
+			"idEducacion": "5",
+			"logo": "./assets/CETEAR.png",
+			"estilo": "width: 70%; margin-top: -2%",
+			"institucion": "CETEAR",
+			"fechaInicio": "2011",
+			"fechaFinal": "2013",
+			"descripcion": "Operador de sonido"
+		}
+	]
 }

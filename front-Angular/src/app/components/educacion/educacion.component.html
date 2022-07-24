@@ -1,85 +1,13 @@
 <div class="container border rounded mb-3">
   <h2>Educación</h2>
-  <div class="row mb-3">
+  <div class="row mb-3" *ngFor="let educacion of educacionList">
     <div class="col-4 text-center">
-      <img
-        src="./assets/APLogo.png"
-        alt="logoAP"
-        class="img-responsive rounded mx-auto d-block"
-        width="80%"
-        style="margin-top: -11%"
-      />
+      <img [src]="educacion.logo" alt="logo" class="img-responsive rounded mx-auto d-block"
+        [style]="educacion.estilo" />
     </div>
     <div class="col-8">
-      <h3>Argentina programa | 2021-22</h3>
-      <p>Finalizando la 2da etapa</p>
-    </div>
-  </div>
-
-  <div class="row mb-4">
-    <div class="col-4">
-      <img
-        src="./assets/Estudio urbano logo.jpg"
-        alt="logoEU"
-        class="img-responsive rounded mx-auto d-block"
-        width="40%"
-        style="margin-top: 4%;"
-      />
-    </div>
-    <div class="col-8">
-      <h3>Estudio urbano | 2021-22</h3>
-      <p>Cursos de Mezcla avanzada y Mastering</p>
-    </div>
-  </div>
-
-  <div class="row mb-5">
-    <div class="col-4">
-      <img
-        src="./assets/Domestika logo.png"
-        alt="logoDome"
-        class="img-responsive mx-auto d-block"
-        width="70%"
-        style="margin-top: 9%;"
-      />
-    </div>
-    <div class="col-8">
-      <h3>Domestika | 2020-21</h3>
-      <p>
-        Introducción a la fotografía digital y Postproducción de sonido para
-        video
-      </p>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-4">
-      <img
-        src="./assets/Logo-Linkedin.png"
-        alt="logoLIL"
-        class="img-responsive mx-auto d-block"
-        width="70%"
-        style="margin-top: -10%"
-      />
-    </div>
-    <div class="col-8">
-      <h3>LinkedIn learning | 2020</h3>
-      <p>Especialista en soporte IT</p>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-4">
-      <img
-        src="./assets/CETEAR.png"
-        alt="logoCETE"
-        class="img-responsive mx-auto d-block"
-        width="70%"
-        style="margin-top: -2%"
-      />
-    </div>
-    <div class="col-8">
-      <h3>CETEAR | 2011-13</h3>
-      <p>Operador de sonido</p>
+      <h3>{{educacion.institucion}} | {{educacion.fechaInicio}}-{{educacion.fechaFinal}}</h3>
+      <p>{{educacion.descripcion}}</p>
     </div>
   </div>
 </div>
