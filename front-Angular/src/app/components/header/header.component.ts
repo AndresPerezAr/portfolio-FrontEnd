@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -9,13 +7,9 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class HeaderComponent implements OnInit {
   hashtag: string = '#YoProgramo';
 
-  constructor(private datosPortfolio: PortfolioService) {}
+  constructor() {}
 
-  ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe((data) => {
-      console.log(data);
-    });
-  }
+  ngOnInit(): void {}
 
   toggleAddTask() {
     console.log('toggle!');

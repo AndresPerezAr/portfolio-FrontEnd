@@ -1,16 +1,9 @@
 {
-	"Persona": [
-		{
-			"id": "1",
-			"nombres": "Andrés",
-			"apellido": "Pérez",
-			"fecha_nacimiento": "30/07/1989",
-			"nacionalidad": "Argentino",
-			"mail": "andresperezar30@gmail.com",
-			"sobre_mi": "Músico, técnico operador audiovisual y estudiante de progrmación FULLSTACK en continuo crecimiento.",
-			"ocupación": "Full Stack developer Jr.",
-			"image_background_header": "./assets/Banner AP.jpg",
-			"image_perfil": "./assets/IMG_4310_adobespark.png"
-		}
-	]
+	"id": "1",
+	"nombre": "Andrés",
+	"apellido": "Pérez",
+	"bio": "Músico, técnico operador audiovisual y estudiante de progrmación FULLSTACK en continuo crecimiento",
+	"titulo": "Full Stack developer Jr.",
+	"backgroundBanner": "./assets/Banner AP.jpg",
+	"fotoPerfil": "./assets/IMG_4310_adobespark.png"
 }
